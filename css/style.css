@@ -702,7 +702,7 @@ opacity: 1;
   font-size: 20px;
   line-height: 20px;
   padding: 19px 70px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .promo-card {
@@ -1465,8 +1465,6 @@ opacity: 1;
   }
   
   .button-appointment{
-  padding-right:28px;
-  padding-left:28px;
   width:100%;
   }
 
