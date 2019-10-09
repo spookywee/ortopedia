@@ -647,7 +647,7 @@ opacity: 1;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
+  width: 540px;
 }
 
 .appointment input {
@@ -1462,6 +1462,10 @@ opacity: 1;
 
 .button{
   padding: 10px 18px;
+  }
+
+  .appointment{
+    width:100%;
   }
   
   .button-appointment{
