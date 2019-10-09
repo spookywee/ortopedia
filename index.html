@@ -47,6 +47,9 @@
         <a class="page-header__logo">
           <img src="img/main-logo.svg" alt="Логотип единого центра Елены Малышевой" width="149" height="81">
         </a>
+        <a href = "#" class = "phone__menu_button"></a>
+        <a href = "#" class = "phone__menu_button_close"></a>
+
         <nav class="page-header__nav nav-menu">
           <ul class="nav-menu__list ulres">
             <li class="nav-menu__item">
@@ -63,9 +66,30 @@
             </li>
           </ul>
         </nav>
-        <button class="page-header__button button-callback buttonres">обратный звонок</button>
+        <button class="page-header__button button-callback buttonres display_btn">обратный звонок</button>
+
+        
       </div>
     </div>
+    <nav class="mobile-menu">
+            <ul class="mobile-menu__inner ulres">
+              <li class="nav-menu__item">
+                <a href="#">О клинике</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#">Услуги и цены</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#">Наши врачи</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="#">Акции</a>
+              </li>
+              <li>
+                <button class="page-header__button button-callback buttonres nav-menu__item">обратный звонок</button>
+              </li>
+            </ul>
+          </nav>
   </header>
   <main>
     <section class="promo">
@@ -483,7 +507,7 @@
             </p>
           </div>
           <div class="promo-card__right-content">
-            <img src="img/promo-card-image.png" alt="Скидка 20%" width="450" height="269">
+            <img src="img/promo-card-image.png" class = "img_discount" alt="Скидка 20%" width="450" height="269">
             <p class="promo-card__info">
               Акция действительна при оплате двух и более аналоговых услуг, проведенных в один визит, или при оплате
               последующего визита. <br><br>
@@ -493,14 +517,14 @@
             <a class="promo-button" href="#">записаться по акции</a>
           </div>
         </div>
-        <div class="promo-card__buttons">
+        <!-- <div class="promo-card__buttons">
           <button class="arrow-button buttonres"></button>
           <div class="promo-card__slider-buttons">
             <button class="promo-card__slider-button buttonres"></button>
             <button class="promo-card__slider-button buttonres"></button>
           </div>
           <button class="arrow-button buttonres"></button>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="our-staff">
@@ -514,9 +538,11 @@
               <div class="staff-slider__slide-wrapper">
                 <div class="staff-slider__info">
                   <img src="img/staff-image-1.jpg" alt="Фото работника" width="360" height="326">
+                  <div class = "staff-slider__main-info">
                   <h3 class="staff-slider__staff-name titles">Жабоева Светлана Леоновна</h3>
                   <p class="staff-slider__work-position">д.м.н., врач – косметолог-дерматолог, руководитель Клиники
                     антивозрастной медицины</p>
+                  </div>
                 </div>
                 <div class="staff-slider__work-info">
                   <p class="staff-slider__work-experience">
@@ -550,9 +576,11 @@
               <div class="staff-slider__slide-wrapper">
                 <div class="staff-slider__info">
                   <img src="img/staff-image-2.jpg" alt="Фото работника" width="360" height="326">
+                  <div class = "staff-slider__main-info">
                   <h3 class="staff-slider__staff-name titles">Базаева Светлана Витальевна</h3>
                   <p class="staff-slider__work-position">врач – косметолог</p>
                 </div>
+              </div>
                 <div class="staff-slider__work-info">
                   <p class="staff-slider__work-experience">
                     <b>Опыт работы:</b> более 10 лет работает <br>
@@ -588,9 +616,11 @@
               <div class="staff-slider__slide-wrapper">
                 <div class="staff-slider__info">
                   <img src="img/staff-image-3.jpg" alt="Фото работника" width="360" height="326">
+                  <div class = "staff-slider__main-info">
                   <h3 class="staff-slider__staff-name titles">Шабунина Элина Алексеевна</h3>
                   <p class="staff-slider__work-position">врач — косметолог-дерматолог</p>
                 </div>
+              </div>
                 <div class="staff-slider__work-info">
                   <p class="staff-slider__work-experience">
                     <b>Опыт:</b> Доктор Шабунина – молодой специалист, которая хорошо знакома со всеми современными
@@ -630,9 +660,9 @@
           </div>
         </div>
         <div class="news__content-block">
-          <img src="img/news-image-1.jpg" alt="" class="news__image" width="360" height="359">
-          <img src="img/news-image-2.jpg" alt="" class="news__image" width="360" height="359">
-          <img src="img/news-image-3.jpg" alt="" class="news__image" width="360" height="359">
+          <img src="img/news-image-1.jpg" alt="" class="news__image" width="219" height="219">
+          <img src="img/news-image-2.jpg" alt="" class="news__image" width="219" height="219">
+          <img src="img/news-image-3.jpg" alt="" class="news__image" width="219" height="219">
         </div>
       </div>
     </section>
