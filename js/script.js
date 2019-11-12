@@ -27,6 +27,27 @@ function menuOpen(){
 
 menuOpen();
 
+// let searchBtn = document.querySelector(".price-list__search-button button-callback");
+// let cards = document.querySelector(".price-list__table tr td");
+// let search = document.querySelector(".price-list__search");
+
+// function searchTitle(){
+//   searchBtn.addEventListener('click', function(){
+//     const searchText = new RegExp(search.value.trim(), 'i');
+//     cards.forEach((card) => {
+//         const title = card.querySelector('.card-title');
+//         if(!searchText.test(title.textContent)){
+//             card.parentNode.style.display = 'none';
+//         }else{
+//             card.parentNode.style.display = '';
+//         }
+//     });
+//     search.value = '';
+// });
+// }
+
+// searchTitle();
+
 function slider(slides, counter) {
   for (let i = 0; i<slides.length; i++) {
     slides[i].classList.add('shide');
@@ -107,14 +128,14 @@ promoRightArrow.addEventListener('click', function(){
 
 
 let additionalText = document.querySelector('.about-us__additional-text');
-let buttonMore = document.querySelector('.button-more');
+// let buttonMore = document.querySelector('.button-more');
 let textImage = document.querySelector('.about-us__image')
 
-buttonMore.addEventListener('click', function(){
-  additionalText.classList.remove('shide');
-  buttonMore.classList.add('shide');
-  textImage.classList.add('about-us__add-image');
-})
+// buttonMore.addEventListener('click', function(){
+//   additionalText.classList.remove('shide');
+//   buttonMore.classList.add('shide');
+//   textImage.classList.add('about-us__add-image');
+// })
 
 let priceListButtonLeft = document.querySelector('.price-list__button-left');
 let priceListButtonRight = document.querySelector('.price-list__button-right');
